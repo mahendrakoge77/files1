@@ -1,0 +1,80 @@
+*
+{
+margin:0;
+padding:0;
+border:0;
+}
+body
+{
+	background:#80ff80;
+	background-attachment:11.jpg;
+
+}
+#container
+{
+	width:40%;
+	background:#ffffe6;
+	margin:0 auto;
+	padding:2px;
+}
+#chat_box
+{
+	width:90%;
+	height:400px;
+}
+#chat_system
+{
+	font-weight:bold;
+	border-bottom:1px solid silver;
+}
+
+textarea
+{
+	width:100%;
+	height:20%;
+	border:1px solid grey;
+	border-radius:5px;
+}
+textarea:hover
+{
+background:#f2f2f2;
+color:#b32d00;	
+}
+input[type='text']
+{
+	width:100%;
+	height:40px;
+	border:1px solid #009900;
+	border-radius:5px;
+}
+input[type='text']:hover
+{
+	background:#f2f2f2;
+	color:#b32d00;
+}
+input[type='submit']
+{   
+	width:100%;
+	height:40px;
+	border:1px solid #009900;
+	border-radius:5px;
+	background:#ffff66;
+}
+input[type='submit']:hover
+{
+	background:#00ff55;
+	color:white;
+}
+button
+{
+	width:100%;
+	height:40px;
+	border:1px solid #009900;
+	border-radius:5px;
+	background:#ffff66;
+}
+button:hover
+{
+	background:#00ff55;
+	color:white;
+}
